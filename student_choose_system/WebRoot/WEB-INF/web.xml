@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>student_choose_system</display-name>
+  <servlet>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <servlet-class>com.scs.servlet.StudentLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectPersonMessageServlet</servlet-name>
+    <servlet-class>com.scs.servlet.SelectPersonMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCourseMessageServlet</servlet-name>
+    <servlet-class>com.scs.servlet.SelectCourseMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentCourseTeacherClassroomServlet</servlet-name>
+    <servlet-class>com.scs.servlet.StudentCourseTeacherClassroomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RepairPersonMessageServlet</servlet-name>
+    <servlet-class>com.scs.servlet.RepairPersonMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RepairPersonMessageServlet_two</servlet-name>
+    <servlet-class>com.scs.servlet.RepairPersonMessageServlet_two</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <servlet-class>com.scs.servlet.DeleteCourseServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <url-pattern>/StudentLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectPersonMessageServlet</servlet-name>
+    <url-pattern>/SelectPersonMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCourseMessageServlet</servlet-name>
+    <url-pattern>/SelectCourseMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentCourseTeacherClassroomServlet</servlet-name>
+    <url-pattern>/StudentCourseTeacherClassroomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RepairPersonMessageServlet</servlet-name>
+    <url-pattern>/RepairPersonMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RepairPersonMessageServlet_two</servlet-name>
+    <url-pattern>/RepairPersonMessageServlet_two</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <url-pattern>/DeleteCourseServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
