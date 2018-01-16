@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="scs">
+    <output-path>$PROJECT_DIR$/classes/artifacts/scs</output-path>
+    <root id="archive" name="scs.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="student_choose_system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
